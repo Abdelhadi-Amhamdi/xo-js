@@ -1,0 +1,75 @@
+
+body {
+    background-color: khaki;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 5rem;
+    font-family: sans-serif;
+    box-shadow: 1px 3px 15px black;
+    margin: 10px;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+
+.big-square{
+    width: 400px;
+    height: 300px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.hiden {
+    display: none;
+}
+.show{
+    display: block;
+}
+
+.start-form{
+ 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+input.pl1 , 
+input.pl2 {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+button.btn-start {
+    width: 100px;
+    height: 50px;
+    border: none;
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+.game {
+    color: white;
+}
+
+.infos {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin: 100px 0px;
+}
